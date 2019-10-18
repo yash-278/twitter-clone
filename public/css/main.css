@@ -1,0 +1,108 @@
+body {
+  background-color: #15202b;
+  color: #ffffff;
+}
+
+body .login-main {
+  margin-top: 15px;
+  padding: 5px;
+}
+
+body footer {
+  padding: 16px;
+}
+
+.login-main {
+  margin: auto;
+  max-width: 380px;
+  height: 345px;
+}
+
+.login-main h1 {
+  text-align: left !important;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.login-main h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.login-main .sign-up {
+  font-weight: bold;
+  border-radius: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.login-main .log-in {
+  font-weight: bold;
+  border-radius: 40px;
+  margin-bottom: 15px;
+}
+
+.hero {
+  background-color: #1da1f2;
+  height: 238px;
+}
+
+.hero .hero-div {
+  max-width: 380px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.hero li {
+  margin-left: -20px;
+  list-style-type: none;
+  padding: 26.5px 0;
+}
+
+.hero h3 {
+  display: inline;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.hero .img-2 {
+  margin-left: -5px;
+}
+
+.hero .line-2 {
+  padding-left: 8px;
+}
+
+footer div {
+  margin: 0 auto;
+  max-width: 380px;
+  max-height: 102px;
+}
+
+footer .sign-up {
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 5px 55px;
+  margin-right: 10px;
+}
+
+footer .log-in {
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 5px 55px;
+}
+
+footer h3 {
+  font-size: 10px;
+  text-align: center;
+  bottom: 30px;
+}
+/*# sourceMappingURL=main.css.map */
