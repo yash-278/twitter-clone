@@ -1,0 +1,33 @@
+body {
+  background-color: #15202b;
+  color: #ffffff;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: auto;
+  max-width: 600px;
+  justify-content: center;
+  .form-holder {
+    padding: 1em;
+    text-align: center;
+
+    h1 {
+      text-align: center;
+      font-weight: 700;
+      font-size: 2rem;
+    }
+    form {
+      padding: 1em;
+    }
+    button {
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 0.5em;
+      margin-bottom: 1em;
+    }
+  }
+}

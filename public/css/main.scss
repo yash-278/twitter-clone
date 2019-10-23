@@ -40,6 +40,10 @@ body {
   margin: 1em 0;
   background-color: #1da1f2;
   height: 238px;
+  background-image: url("/public/images/twitter-bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
   .hero-div {
     max-width: 380px;
@@ -89,17 +93,24 @@ footer {
   }
   .login-section {
     order: 2;
-    width: 60%;
+    width: 50%;
     margin: auto;
   }
   .hero {
-    width: 40%;
+    width: 50%;
     order: 1;
     height: 100%;
     margin: auto;
     display: flex;
     align-items: center;
+    .hero-div {
+      max-width: 500px;
+      h3 {
+        font-size: 1.3rem;
+      }
+    }
   }
+
   .login-main {
     margin: auto;
   }

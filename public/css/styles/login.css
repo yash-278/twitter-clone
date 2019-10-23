@@ -1,0 +1,44 @@
+body {
+  background-color: #15202b;
+  color: #ffffff;
+}
+
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  margin: auto;
+  max-width: 600px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-container .form-holder {
+  padding: 1em;
+  text-align: center;
+}
+
+.main-container .form-holder h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.main-container .form-holder form {
+  padding: 1em;
+}
+
+.main-container .form-holder button {
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+/*# sourceMappingURL=login.css.map */
