@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Compose Tweet</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/styles/compose.css" />
+  </head>
+  <body>
+    <!-- <div class="main-container">
+      <div class="form">
+        <form action="">
+          <h3>Compose a Tweet</h3>
+          <textarea
+            name="tweet"
+            cols="30"
+            rows="10"
+            maxlength="280"
+            class="tweet-text"
+            placeholder="What's happening"
+          >
+          </textarea>
+        </form>
+      </div>
+    </div> -->
+    <div>
+      <form action="/compose" method="POST">
+        <br />
+        <br />
+        <br />
+        <label for="Content" class="labels">Compose a Tweet</label>
+        <textarea
+          class="form-control"
+          placeholder="What's happening"
+          rows="4"
+          name="tweetContent"
+          maxlength="280"
+        ></textarea>
+        <br />
+        <a href="/home">
+          <button type="button" class="btn btn-lg btn-outline-primary back">
+            Back
+          </button>
+        </a>
+
+        <button type="submit" class="btn btn-lg btn-primary publish">
+          Publish
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

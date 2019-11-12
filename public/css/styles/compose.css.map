@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,OAAO;EACd,MAAM,EAAE,KAAK;CACd;;AAED,AAAA,GAAG,CAAC;EACF,SAAS,EAAE,KAAK;EAChB,OAAO,EAAE,GAAG;EACZ,MAAM,EAAE,IAAI;CACb;;AACD,AAAA,OAAO,CAAC;EACN,SAAS,EAAE,MAAM;CAClB;;AAED,AAAA,QAAQ,CAAC;EACP,WAAW,EAAE,IAAI;CAClB",
+    "sources": [
+        "compose.scss"
+    ],
+    "names": [],
+    "file": "compose.css"
+}
